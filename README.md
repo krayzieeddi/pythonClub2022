@@ -1,2 +1,2 @@
 # pythonClub2022
-IT 262 python class work
+IT 112 python class work
