@@ -20,7 +20,7 @@ class MeetingMinutes(models.Model):
     minutesText = models.TextField(max_length = 255, null = True, blank = True)
 
     def __str__(self):
-        return self.meetingId
+        return str(self.meetingId)
 
     class Meta:
         db_table = 'meetingMinutes'
